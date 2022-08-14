@@ -98,7 +98,7 @@ public class FlappyPanel extends JPanel implements ActionListener, KeyListener {
 			if (currentState == MENU) {
 				currentState = TUTORIAL;
 			} else {
-				mario.velocity = -10;
+				mario.velocity = -4;
 			}
 		}
 

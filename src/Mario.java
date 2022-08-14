@@ -19,7 +19,7 @@ public class Mario  extends FlappyObject implements ActionListener  {
 		Mario(int x, int y, int width, int height) {
 			super(x, y, width, height);
 			speed = 1;
-			jumpHeight = 1;
+			jumpHeight = 100;
 			if (needImage) {
 			    loadImage ("MarioKart.png");
 			}
@@ -41,7 +41,7 @@ public class Mario  extends FlappyObject implements ActionListener  {
 		
 		y+=velocity;
 		
-		velocity+=1;
+		velocity+=0.1;
 		
 		super.update();
 	}

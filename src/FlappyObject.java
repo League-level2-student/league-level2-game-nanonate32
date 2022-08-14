@@ -8,7 +8,7 @@ public class FlappyObject {
 	Rectangle collisionBox;
 	int speed = 0;
 	int jumpHeight = 0;
-	int velocity = 0;
+	double velocity = 0;
 	boolean isActive = true;
 
 	FlappyObject(int x, int y, int width, int height) {
